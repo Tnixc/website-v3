@@ -172,15 +172,15 @@
     <div
       class="h-0.5 bg-gradient-to-r from-rp-base via-rp-rose to-rp-base"
     ></div>
-    <div class="flex flex-wrap justify-around rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20">
+    <div class="flex flex-wrap gap-4 justify-around rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20">
       <NuxtImg
-        class="h-60 bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
         lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
-        class="h-60 bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
         lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
