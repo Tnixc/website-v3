@@ -11,7 +11,7 @@
         <span
           class="underscore text-rpd-foam"
           :class="{ flash: showUnderscore }"
-          >⎥</span
+          >_</span
         >
       </h2>
     </div>

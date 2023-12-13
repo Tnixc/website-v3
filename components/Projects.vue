@@ -1,5 +1,5 @@
 <template>
-  <div class="-mb-20 h-40 rounded-t-6xl bg-gradient-to-b from-rp-base"></div>
+  <div class="-mb-20 h-40 rounded-t-6xl bg-gradient-to-b from-rp-muted"></div>
   <h1
     class="flex items-center gap-5 px-8 font-serif text-6xl text-rp-text lg:px-20"
   >
@@ -44,5 +44,7 @@
   <div class="mt-20 flex flex-wrap justify-around gap-2">
     <ProjectsPElemental />
     <ProjectsPBlog />
+    <ProjectsPCatppuccin />
+    <ProjectsPWebsite />
   </div>
 </template>
