@@ -3,6 +3,7 @@
     <main class="w-[98vw] max-w-7xl">
       <Landing />
       <GraphicOne class="w-full mr-auto ml-auto" />
+      <Skills />
     </main>
     <Nav />
   </body>

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       theme: {
         fontFamily: {
           sans: ["Inter", "system-ui", "sans-serif"],
-          serif: ["Crimson", "system-ui", "sans-serif"],
+          serif: ["'Crimson Pro'", "serif"],
           mono: ['"Fira Code"', "monospace"],
         },
         borderRadius: {
