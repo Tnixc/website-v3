@@ -10,6 +10,7 @@
       <Projects />
       <!-- <div class="h-80"></div> -->
       <Contact />
+      <Footer />
     </main>
     <Nav />
   </body>
