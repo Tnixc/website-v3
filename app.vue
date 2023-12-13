@@ -4,6 +4,8 @@
       <Landing />
       <GraphicOne class="w-full mr-auto ml-auto" />
       <About />
+      <GraphicTwo class="w-full mr-auto ml-auto"/>
+      <Skills />
     </main>
     <Nav />
   </body>
