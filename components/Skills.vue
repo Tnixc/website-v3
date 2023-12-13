@@ -43,9 +43,9 @@
       </p>
     </div>
   </div>
-  <div>
+  <div >
     <div
-      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20 relative" id="card"
+      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20 relative overflow-hidden" id="card"
     >
       <div class="font-serif text-rp-text">
         <h1 class="flex flex-wrap gap-4 text-5xl">
@@ -172,14 +172,16 @@
     <div
       class="h-0.5 bg-gradient-to-r from-rp-base via-rp-rose to-rp-base"
     ></div>
-    <div class="flex flex-wrap justify-around rounded-b-6xl bg-rp-base py-20">
+    <div class="flex flex-wrap justify-around rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20">
       <NuxtImg
-        class="h-60 bg-rp-base p-2"
+        class="h-60 bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
-        class="h-60 bg-rp-base p-2"
+        class="h-60 bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
@@ -195,5 +197,25 @@
     var(--rose) 89.27%,
     var(--base) 100%
   );
+}
+#card::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  filter: blur(20px);
+  background: linear-gradient(45deg, var(--rose), transparent);
+}
+#card::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 20px;
+  height: 100%;
+  filter: blur(20px);
+  background: linear-gradient(135deg, var(--rose), transparent);
 }
 </style>
