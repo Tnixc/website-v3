@@ -50,7 +50,7 @@
   </div>
 </template>
 <style scoped>
-div > div{
-  @apply ring-2 ring-rp-subtle/30; 
+div > div {
+  @apply ring-2 ring-rp-subtle/30;
 }
 </style>

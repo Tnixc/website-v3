@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full rounded-b-6xl mb-2 bg-rpd-base" id="title">
+  <div class="mb-2 w-full rounded-b-6xl bg-rpd-base" id="title">
     <div class="px-6 pb-20 pt-20 font-serif text-rp-text lg:px-20">
       <h1 class="flex flex-wrap gap-4 text-6xl">
         <svg
@@ -43,9 +43,10 @@
       </p>
     </div>
   </div>
-  <div >
+  <div>
     <div
-      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20 relative overflow-hidden" id="card"
+      class="relative flex w-full flex-wrap gap-10 overflow-hidden rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20"
+      id="card"
     >
       <div class="font-serif text-rp-text">
         <h1 class="flex flex-wrap gap-4 text-5xl">
@@ -172,17 +173,19 @@
     <div
       class="h-0.5 bg-gradient-to-r from-rp-base via-rp-rose to-rp-base"
     ></div>
-    <div class="flex flex-wrap gap-4 justify-around rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20">
+    <div
+      class="flex flex-wrap justify-around gap-4 rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20"
+    >
       <NuxtImg
         alt="My github profile card"
-        class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        class="rounded-2xl relative m-1 h-60 max-w-[98%] bg-rp-base p-2 shadow-lg ring ring-rp-highlightHigh"
         lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
         alt="My github languages card"
-        class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
+        class="rounded-2xl relative m-1 h-60 max-w-[98%] bg-rp-base p-2 shadow-lg ring ring-rp-highlightHigh"
         lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
@@ -200,15 +203,14 @@
     var(--base) 100%
   );
   background: radial-gradient(
-  181.82% 149.9% at 50% 0%, /* Rotate by changing the '100%' to '0%' */
-  transparent 37.41%,
-  var(--rose) 89.27%,
-  var(--base) 100%
-);
-
+    181.82% 149.9% at 50% 0%,
+    /* Rotate by changing the '100%' to '0%' */ transparent 37.41%,
+    var(--rose) 89.27%,
+    var(--base) 100%
+  );
 }
-#card::after{
-  content: '';
+#card::after {
+  content: "";
   position: absolute;
   top: 0;
   left: -20px;
@@ -217,8 +219,8 @@
   filter: blur(20px);
   background: linear-gradient(45deg, var(--rose), transparent);
 }
-#card::before{
-  content: '';
+#card::before {
+  content: "";
   position: absolute;
   top: 0;
   right: -20px;

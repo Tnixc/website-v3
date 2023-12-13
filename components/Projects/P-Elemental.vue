@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded-3xl flex max-w-full flex-grow flex-col bg-rp-surface p-10 lg:w-1/2 something relative"
+    class="rounded-3xl something relative flex max-w-full flex-grow flex-col bg-rp-surface p-10 lg:w-1/2"
   >
     <NuxtImg
       alt="screenshot of Elemental website"

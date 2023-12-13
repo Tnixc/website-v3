@@ -1,5 +1,7 @@
 <template>
-  <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10 something relative">
+  <div
+    class="rounded-3xl something relative flex w-full max-w-full flex-col bg-rp-surface p-10"
+  >
     <div>
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
         <NuxtImg

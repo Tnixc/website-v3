@@ -384,9 +384,9 @@
     </svg>
   </div>
   <div
-    class="bg-gradient-to-t from-rp-iris/50 via-transparent p-3 pb-20 text-rp-subtle lg:p-20 rounded-6xl"
+    class="rounded-6xl bg-gradient-to-t from-rp-iris/50 via-transparent p-3 pb-20 text-rp-subtle lg:p-20"
   >
-    <div class="flex lg:justify-between lg:flex-row flex-col gap-10">
+    <div class="flex flex-col gap-10 lg:flex-row lg:justify-between">
       <div>
         <p>
           Made with the

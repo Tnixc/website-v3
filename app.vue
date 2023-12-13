@@ -7,7 +7,8 @@ useSeoMeta({
   ogImage: "/favicon.png",
   ogUrl: "https://tnixc.space",
   twitterTitle: "Tnixc's website",
-  twitterDescription: "About, skills, projects and contact information for Tnixc",
+  twitterDescription:
+    "About, skills, projects and contact information for Tnixc",
   twitterImage: "/favicon.png",
   twitterCard: "",
 });
