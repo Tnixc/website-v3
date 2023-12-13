@@ -2,6 +2,7 @@
   <body class="flex h-screen justify-center bg-black">
     <main class="w-[98vw] max-w-7xl">
       <Landing />
+      <GraphicOne class="w-full mr-auto ml-auto" />
     </main>
     <Nav />
   </body>
