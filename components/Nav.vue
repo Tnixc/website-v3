@@ -9,30 +9,31 @@
     />
     <p class="px-2 pb-1 font-serif text-2xl">Tnixc</p>
     <div class="ml-auto mr-0 flex px-5">
-      <nuxt-link
+      <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-love underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
-        to=""
-        >About</nuxt-link
+        href="#about"
+        >About</a
       >
-      <nuxt-link
+      <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-foam underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
-        to=""
-        >Skills</nuxt-link
+        href="#skills"
+        >Skills</a
       >
 
-      <nuxt-link
+      <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-iris underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
-        to=""
-        >Projects</nuxt-link
+        href="#projects"
+        >Projects</a
       >
-      <nuxt-link
+      <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-gold underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
-        to=""
-        >Contact</nuxt-link
+        href="#contact"
+        >Contact</a
       >
       <a
         class="flex cursor-pointer items-center gap-2 px-4 pb-1 font-serif text-2xl text-rp-text underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
-        href=""
+        href="https://blog.tnixc.space"
+        target="_blank"
         >Blog
         <svg width="19" height="19">
           <g transform="translate(-126.19736,-766.93049)">

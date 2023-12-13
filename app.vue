@@ -2,20 +2,26 @@
   <body class="flex h-screen justify-center bg-black">
     <main class="w-[98vw] max-w-7xl">
       <Landing />
+      <a id="about"></a>
       <GraphicOne class="ml-auto mr-auto w-full" />
       <About />
+      <a id="skills"></a>
       <GraphicTwo class="ml-auto mr-auto w-full" />
       <Skills />
+      <a id="projects"></a>
       <GraphicThree class="ml-auto mr-auto w-full" />
       <Projects />
-      <!-- <div class="h-80"></div> -->
+      <a id="contact"></a>
       <Contact />
-      <Footer />
+      <LazyFooter/>
     </main>
     <Nav />
   </body>
 </template>
 <style>
+*{
+  scroll-behavior: smooth;
+}
 :root {
   --base: #191724;
   --surface: #1f1d2e;

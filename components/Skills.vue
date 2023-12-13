@@ -45,7 +45,7 @@
   </div>
   <div>
     <div
-      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20"
+      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20 relative" id="card"
     >
       <div class="font-serif text-rp-text">
         <h1 class="flex flex-wrap gap-4 text-5xl">
