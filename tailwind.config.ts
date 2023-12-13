@@ -1,6 +1,11 @@
 // This doesn't actually do anything, it is just for the IDE to recognize the tailwind stuff
 module.exports = {
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'system-ui','sans-serif'],
+      'serif': ['Crimson', 'system-ui','sans-serif'],
+      'mono': ['"Fira Code"', 'monospace'],
+    },
     extend: {
       colors: {
         rp: {

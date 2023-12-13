@@ -1,10 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxtjs/google-fonts"],
   tailwindcss: {
     config: {
       theme: {
+        fontFamily: {
+          'sans': ['Inter', 'system-ui','sans-serif'],
+          'serif': ['Crimson', 'system-ui','sans-serif'],
+          'mono': ['"Fira Code"', 'monospace'],
+        },
         extend: {
           colors: {
             rp: {
@@ -60,6 +65,21 @@ export default defineNuxtConfig({
             },
           },
         },
+      },
+    },
+  },
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Poppins: {
+        wght: "400",
+      },
+      Inter: {
+        wght: "400",
+      },
+      "Crimson Pro": {
+        wght: "400",
+        ital: "400",
       },
     },
   },
