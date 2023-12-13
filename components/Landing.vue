@@ -1,14 +1,14 @@
 <template>
-  <div class="h-[640px] w-full rounded-b-3xl bg-rp-base">
-    <div class="p-5 py-40 font-serif">
-      <h1 class="text-5xl text-rp-subtle">Haiiii</h1>
-      <p class="text-7xl text-rp-subtle">
-        I'm <span class="text-rp-text">Tnixc</span>
+  <div class="w-full rounded-b-6xl bg-rpd-base h-[500px]" id="title">
+    <div class="p-10 pt-40 pb-48 font-serif">
+      <h1 class="text-5xl text-rpd-subtle">Haiiii</h1>
+      <p class="text-7xl text-rpd-subtle">
+        I'm <span class="text-rpd-text">Tnixc</span>
       </p>
       <br>
-      <h2 class="text-3xl text-rp-subtle lg:h-auto">
-        Just a 15y/o <span class="text-rp-text">{{ typedText }}</span>
-        <span class="underscore text-rp-foam" :class="{ flash: showUnderscore }"
+      <h2 class="text-3xl text-rpd-subtle lg:h-auto">
+        Just a 15y/o <span class="text-rpd-text">{{ typedText }}</span>
+        <span class="underscore text-rpd-foam" :class="{ flash: showUnderscore }"
           >_</span
         >
       </h2>
@@ -96,8 +96,10 @@ export default {
   },
 };
 </script>
-
 <style scoped>
+#title{
+  background: radial-gradient(140% 137.13% at 50% 10%,var(--text) 37.41%,var(--gold) 69.27%,var(--foam) 100%);
+}
 .underscore {
   animation: blink 0.5s infinite;
 }
