@@ -175,10 +175,12 @@
     <div class="flex flex-wrap justify-around rounded-b-6xl bg-rp-base py-20">
       <NuxtImg
         class="h-60 bg-rp-base p-2"
+        draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
         class="h-60 bg-rp-base p-2"
+        draggable="false"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
     </div>

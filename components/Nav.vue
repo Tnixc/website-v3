@@ -3,7 +3,8 @@
     class="hidden lg:flex rounded-full fixed top-4 left-1/2 h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rpm-base/40 backdrop-blur-lg text-rpm-text ring-2 ring-rpm-muted shadow-2xl"
   >
     <NuxtImg
-      class="rounded-full block max-h-full scale-75 ring-2 ring-rpm-love"
+      draggable="false"
+      class="rounded-full block max-h-full scale-75 ring-2 ring-rpm-love h-full aspect-square"
       src="https://avatars.githubusercontent.com/u/85466117?v=4"
     />
     <p class="px-2 pb-1 font-serif text-2xl">Tnixc</p>
