@@ -1,6 +1,6 @@
 <template>
   <div class="w-full rounded-b-6xl bg-rpd-base h-[500px]" id="title">
-    <div class="p-20 pt-40 pb-48 font-serif">
+    <div class="px-6 lg:px-20 pt-40 pb-48 font-serif">
       <h1 class="text-5xl text-rpd-subtle">Haiiii</h1>
       <p class="text-7xl text-rpd-subtle">
         I'm <span class="text-rpd-text">Tnixc</span>
@@ -9,7 +9,7 @@
       <h2 class="text-3xl text-rpd-subtle lg:h-auto">
         Just a 15y/o <span class="text-rpd-text">{{ typedText }}</span>
         <span class="underscore text-rpd-foam" :class="{ flash: showUnderscore }"
-          >_</span
+          >⎥</span
         >
       </h2>
     </div>

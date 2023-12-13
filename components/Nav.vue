@@ -1,7 +1,6 @@
 <template>
   <div
-    id="desktop"
-    class="rounded-full fixed top-4 left-1/2 flex h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rpm-base/40 backdrop-blur-lg text-rpm-text ring-2 ring-rpm-muted shadow-2xl"
+    class="hidden lg:flex rounded-full fixed top-4 left-1/2 h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rpm-base/40 backdrop-blur-lg text-rpm-text ring-2 ring-rpm-muted shadow-2xl"
   >
     <NuxtImg
       class="rounded-full block max-h-full scale-75 ring-2 ring-rpm-love"

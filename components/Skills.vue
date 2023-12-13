@@ -1,7 +1,7 @@
 <template>
   <div class="w-full rounded-t-6xl bg-rpd-base" id="title">
-    <div class="px-20 pb-20 pt-20 font-serif text-rp-text">
-      <h1 class="flex gap-4 text-6xl">
+    <div class="px-6 pb-20 pt-20 font-serif text-rp-text lg:px-20">
+      <h1 class="flex flex-wrap gap-4 text-6xl">
         <svg
           width="60"
           height="60"
@@ -44,9 +44,11 @@
     </div>
   </div>
   <div>
-    <div class="flex w-full gap-10 rounded-t-6xl bg-rp-base p-20">
+    <div
+      class="flex w-full flex-wrap gap-10 rounded-t-6xl bg-rp-base px-6 py-20 pb-5 lg:px-20"
+    >
       <div class="font-serif text-rp-text">
-        <h1 class="flex gap-4 text-5xl">
+        <h1 class="flex flex-wrap gap-4 text-5xl">
           <svg
             width="48"
             height="48"
@@ -80,7 +82,7 @@
             </defs></svg
           >Languages
         </h1>
-        <div class="flex gap-4 py-8 font-mono">
+        <div class="flex flex-wrap gap-4 py-8 font-mono">
           <div
             class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-blue-400 ring-current transition-all hover:ring-2"
           >
@@ -109,7 +111,7 @@
         </div>
       </div>
       <div class="font-serif text-rp-text">
-        <h1 class="flex gap-4 text-5xl">
+        <h1 class="flex flex-wrap gap-4 text-5xl">
           <svg
             width="48"
             height="48"
@@ -141,9 +143,9 @@
                 <rect width="200" height="200" fill="white" />
               </clipPath>
             </defs></svg
-          >Frameworks/Tools
+          ><span>Frameworks</span><span>/</span><span>Tools</span>
         </h1>
-        <div class="flex gap-4 py-8 font-mono">
+        <div class="flex flex-wrap gap-4 py-8 font-mono">
           <div
             class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
           >
@@ -166,6 +168,19 @@
           </div>
         </div>
       </div>
+    </div>
+    <div
+      class="h-0.5 bg-gradient-to-r from-rp-base via-rp-rose to-rp-base"
+    ></div>
+    <div class="flex flex-wrap justify-around rounded-b-6xl bg-rp-base py-20">
+      <NuxtImg
+        class="h-60 bg-rp-base p-2"
+        src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
+      />
+      <NuxtImg
+        class="h-60 bg-rp-base p-2"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
+      />
     </div>
   </div>
 </template>

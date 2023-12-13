@@ -6,6 +6,7 @@
       <About />
       <GraphicTwo class="w-full mr-auto ml-auto"/>
       <Skills />
+      <GraphicThree class="w-full mr-auto ml-auto"/>
     </main>
     <Nav />
   </body>

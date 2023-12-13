@@ -1,6 +1,6 @@
 <template>
   <div class="w-full rounded-t-6xl bg-rpd-base" id="title">
-    <div class="px-20 pb-20 pt-20 font-serif text-rp-text">
+    <div class="px-6 lg:px-20 pb-20 pt-20 font-serif text-rp-text">
       <h1 class="flex gap-4 text-6xl">
         <svg
           width="60"
@@ -36,7 +36,7 @@
         >about
       </h1>
       <br />
-      <p class="font-mono text-2xl text-rp-subtle">
+      <p class="font-mono text-2xl text-rp-text">
         | he/him | Time Zone: EST | 🇨🇦 🇭🇰 |
       </p>
       <p class="py-4 font-sans text-xl leading-7 text-rp-subtle">
