@@ -1,7 +1,7 @@
 <template>
-  <div class="rounded-3xl flex flex-col bg-rp-surface p-10">
+  <div class="rounded-3xl flex flex-col bg-rp-surface p-10 max-w-full w-min">
     <NuxtImg
-      class="max-w-xl"
+      class="max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/elemental.webp"
     />

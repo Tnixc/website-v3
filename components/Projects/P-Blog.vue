@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl flex flex-col bg-rp-surface p-10">
+  <div class="rounded-3xl flex flex-col bg-rp-surface p-10 max-w-full w-min">
     <div>
       <h1 class="font-serif text-4xl text-rp-text">Blog</h1>
       <p class="py-4 text-lg text-rp-subtle">
@@ -14,7 +14,7 @@
       >
     </div>
     <NuxtImg
-      class="max-w-xl"
+      class="max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/blog.webp"
     />
