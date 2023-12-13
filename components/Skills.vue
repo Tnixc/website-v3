@@ -216,6 +216,6 @@
   width: 20px;
   height: 100%;
   filter: blur(20px);
-  background: linear-gradient(135deg, var(--rose), transparent);
+  background: linear-gradient(-45deg, var(--rose), transparent);
 }
 </style>
