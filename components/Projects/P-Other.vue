@@ -18,7 +18,7 @@
           target="_blank"
           class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
           >disc-collections</a
-        >
+        >.
       </p>
     </div>
   </div>

@@ -46,5 +46,6 @@
     <ProjectsPBlog />
     <ProjectsPCatppuccin />
     <ProjectsPWebsite />
+    <ProjectsPOther />
   </div>
 </template>
