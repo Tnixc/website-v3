@@ -8,6 +8,8 @@
       <Skills />
       <GraphicThree class="ml-auto mr-auto w-full" />
       <Projects />
+      <div class="h-80"></div>
+      <Contact />
     </main>
     <Nav />
   </body>
