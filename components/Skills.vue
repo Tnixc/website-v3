@@ -44,8 +44,8 @@
     </div>
   </div>
   <div>
-    <div class="w-full rounded-t-6xl bg-rp-base">
-      <div class="px-20 pb-20 pt-20 font-serif text-rp-text">
+    <div class="flex w-full gap-10 rounded-t-6xl bg-rp-base p-20">
+      <div class="font-serif text-rp-text">
         <h1 class="flex gap-4 text-5xl">
           <svg
             width="48"
@@ -81,14 +81,34 @@
           >Languages
         </h1>
         <div class="flex gap-4 py-8 font-mono">
-          <div class="rounded-lg bg-rpm-base p-4 text-xl">TypeScript</div>
-          <div class="rounded-lg bg-rpm-base p-4 text-xl">HTML</div>
-          <div class="rounded-lg bg-rpm-base p-4 text-xl">CSS</div>
-          <div class="rounded-lg bg-rpm-base p-4 text-xl">SASS</div>
-          <div class="rounded-lg bg-rpm-base p-4 text-xl">Python</div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-blue-400 ring-current transition-all hover:ring-2"
+          >
+            TypeScript
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
+          >
+            HTML
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-blue-500 ring-current transition-all hover:ring-2"
+          >
+            CSS
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-pink-500 ring-current transition-all hover:ring-2"
+          >
+            SASS
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-yellow-400 ring-current transition-all hover:ring-2"
+          >
+            Python
+          </div>
         </div>
       </div>
-      <div class="px-20 pb-20 pt-20 font-serif text-rp-text">
+      <div class="font-serif text-rp-text">
         <h1 class="flex gap-4 text-5xl">
           <svg
             width="48"
@@ -97,32 +117,54 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_236_1049)">
+            <g clip-path="url(#clip0_234_869)">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
-                d="M200 2.62268e-06V60L200 200H140V130.033C139.982 168.678 108.649 200 70 200C31.3401 200 0 168.66 0 130C0 91.3401 31.3401 60 70 60C108.649 60 139.982 91.3222 140 129.967V60H70H0V2.62268e-06L140 0L200 2.62268e-06Z"
-                fill="url(#paint0_linear_236_1049)"
+                d="M50 0H0V100H50C22.3858 100 0 122.386 0 150V200H100V150C100 177.614 122.386 200 150 200H200V100H150C177.614 100 200 77.6142 200 50V0H100V50C100 22.3858 77.6142 0 50 0ZM100 100H50C77.6142 100 100 122.386 100 150V100ZM100 100V50C100 77.6142 122.386 100 150 100H100Z"
+                fill="url(#paint0_linear_234_869)"
               />
             </g>
             <defs>
               <linearGradient
-                id="paint0_linear_236_1049"
-                x1="157.5"
-                y1="32"
-                x2="44"
-                y2="147.5"
+                id="paint0_linear_234_869"
+                x1="100"
+                y1="0"
+                x2="100"
+                y2="200"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.0509862" stop-color="#FFB6E1" />
-                <stop offset="1" stop-color="#FBE3EA" />
+                <stop stop-color="#A7B5FF" />
+                <stop offset="1" stop-color="#F3ACFF" />
               </linearGradient>
-              <clipPath id="clip0_236_1049">
+              <clipPath id="clip0_234_869">
                 <rect width="200" height="200" fill="white" />
               </clipPath>
             </defs></svg
-          >Languages
+          >Frameworks/Tools
         </h1>
+        <div class="flex gap-4 py-8 font-mono">
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
+          >
+            Vue
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
+          >
+            Nuxt
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-cyan-400 ring-current transition-all hover:ring-2"
+          >
+            TailwindCSS
+          </div>
+          <div
+            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
+          >
+            Git
+          </div>
+        </div>
       </div>
     </div>
   </div>
