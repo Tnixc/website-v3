@@ -35,7 +35,7 @@
           </defs></svg
         >skills
       </h1>
-      <p class="py-4 font-sans text-xl leading-7 text-rp-subtle">
+      <p class="pt-16 pb-4 font-sans text-xl leading-7 text-rp-subtle">
         I mainly do UI/UX design and Front-end development, but I would like to
         learn more about how js frameworks and web technologies work under the
         hood. I also do some 3D art and animation. I'm considering a career in
