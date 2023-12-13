@@ -2,9 +2,9 @@
 module.exports = {
   theme: {
     fontFamily: {
-      'sans': ['Inter', 'system-ui','sans-serif'],
-      'serif': ['Crimson', 'system-ui','sans-serif'],
-      'mono': ['"Fira Code"', 'monospace'],
+      sans: ["Inter", "system-ui", "sans-serif"],
+      serif: ['"Crimson Pro"', "serif"],
+      mono: ['"DM Mono"', "monospace"],
     },
     extend: {
       colors: {

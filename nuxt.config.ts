@@ -6,9 +6,9 @@ export default defineNuxtConfig({
     config: {
       theme: {
         fontFamily: {
-          'sans': ['Inter', 'system-ui','sans-serif'],
-          'serif': ['Crimson', 'system-ui','sans-serif'],
-          'mono': ['"Fira Code"', 'monospace'],
+          sans: ["Inter", "system-ui", "sans-serif"],
+          serif: ["Crimson", "system-ui", "sans-serif"],
+          mono: ['"Fira Code"', "monospace"],
         },
         extend: {
           colors: {
@@ -69,9 +69,12 @@ export default defineNuxtConfig({
     },
   },
   googleFonts: {
-    display: 'swap',
+    display: "swap",
     families: {
       Poppins: {
+        wght: "400",
+      },
+      "DM Mono": {
         wght: "400",
       },
       Inter: {
