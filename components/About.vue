@@ -1,6 +1,6 @@
 <template>
   <div class="w-full rounded-t-6xl bg-rpd-base" id="title">
-    <div class="px-6 lg:px-20 pb-20 pt-20 font-serif text-rp-text">
+    <div class="px-6 pb-20 pt-20 font-serif text-rp-text lg:px-20">
       <h1 class="flex gap-4 text-6xl">
         <svg
           width="60"
@@ -49,9 +49,11 @@
         has been blur since 2020 so I'm not sure. I also like trains and bikes(a
         huge fan of dutch urban design), public transit, typography, and open
         source. I also like chilling in IKEA and hiking :3
-        <br>
-        <br>
-        I also enjoy games like minecraft and a lot of rhythm games like osu!, pjsk, and beat saber. I also like BG3, City Skylines 2, Cyberpunk, poly bridge, ultrakill, besiege, and celeste.
+        <br />
+        <br />
+        I also enjoy games like minecraft and a lot of rhythm games like osu!,
+        pjsk, and beat saber. I also like BG3, City Skylines 2, Cyberpunk, poly
+        bridge, ultrakill, besiege, and celeste.
       </p>
     </div>
   </div>

@@ -2,18 +2,18 @@
   <body class="flex h-screen justify-center bg-black">
     <main class="w-[98vw] max-w-7xl">
       <Landing />
-      <GraphicOne class="w-full mr-auto ml-auto" />
+      <GraphicOne class="ml-auto mr-auto w-full" />
       <About />
-      <GraphicTwo class="w-full mr-auto ml-auto"/>
+      <GraphicTwo class="ml-auto mr-auto w-full" />
       <Skills />
-      <GraphicThree class="w-full mr-auto ml-auto"/>
+      <GraphicThree class="ml-auto mr-auto w-full" />
       <Projects />
     </main>
     <Nav />
   </body>
 </template>
 <style>
-:root{
+:root {
   --base: #191724;
   --surface: #1f1d2e;
   --overlay: #26233a;

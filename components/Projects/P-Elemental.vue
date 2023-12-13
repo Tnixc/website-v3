@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl flex flex-col bg-rp-surface p-10 max-w-full w-min">
+  <div class="rounded-3xl flex w-min max-w-full flex-col bg-rp-surface p-10">
     <NuxtImg
       class="max-w-lg"
       loading="lazy"

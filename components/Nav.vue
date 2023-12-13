@@ -1,10 +1,10 @@
 <template>
   <div
-    class="hidden lg:flex rounded-full fixed top-4 left-1/2 h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 backdrop-blur-lg text-rp-text ring-2 ring-rp-muted shadow-2xl"
+    class="rounded-full fixed left-1/2 top-4 hidden h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted backdrop-blur-lg lg:flex"
   >
     <NuxtImg
       draggable="false"
-      class="rounded-full block max-h-full scale-75 ring-2 ring-rp-love h-full aspect-square"
+      class="rounded-full block aspect-square h-full max-h-full scale-75 ring-2 ring-rp-love"
       src="https://avatars.githubusercontent.com/u/85466117?v=4"
     />
     <p class="px-2 pb-1 font-serif text-2xl">Tnixc</p>
@@ -31,13 +31,10 @@
         >Contact</nuxt-link
       >
       <a
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-text underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100 flex items-center gap-2"
+        class="flex cursor-pointer items-center gap-2 px-4 pb-1 font-serif text-2xl text-rp-text underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         href=""
         >Blog
-        <svg
-          width="19"
-          height="19"
-        >
+        <svg width="19" height="19">
           <g transform="translate(-126.19736,-766.93049)">
             <path
               style="fill: currentColor"

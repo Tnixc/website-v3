@@ -1,5 +1,5 @@
 <template>
-  <div class="h-40 rounded-t-6xl bg-gradient-to-b from-rp-base -mb-20"></div>
+  <div class="-mb-20 h-40 rounded-t-6xl bg-gradient-to-b from-rp-base"></div>
   <h1
     class="flex items-center gap-5 px-8 font-serif text-6xl text-rp-text lg:px-20"
   >
@@ -41,9 +41,8 @@
       </defs></svg
     >projects
   </h1>
-  <div class="mt-20 flex flex-wrap gap-2 justify-around">
-    <ProjectsPElemental/>
-    <ProjectsPBlog/>
-    
+  <div class="mt-20 flex flex-wrap justify-around gap-2">
+    <ProjectsPElemental />
+    <ProjectsPBlog />
   </div>
 </template>
