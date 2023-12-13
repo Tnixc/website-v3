@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full rounded-t-6xl bg-rpd-base" id="title">
+  <div class="w-full rounded-b-6xl mb-2 bg-rpd-base" id="title">
     <div class="px-6 pb-20 pt-20 font-serif text-rp-text lg:px-20">
       <h1 class="flex flex-wrap gap-4 text-6xl">
         <svg
@@ -174,12 +174,14 @@
     ></div>
     <div class="flex flex-wrap gap-4 justify-around rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20">
       <NuxtImg
+        alt="My github profile card"
         class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
         lazy="true"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
+        alt="My github languages card"
         class="h-60 max-w-[98%] bg-rp-base p-2 rounded-2xl relative m-1 ring ring-rp-highlightHigh shadow-lg"
         lazy="true"
         draggable="false"
@@ -197,6 +199,13 @@
     var(--rose) 89.27%,
     var(--base) 100%
   );
+  background: radial-gradient(
+  181.82% 149.9% at 50% 0%, /* Rotate by changing the '100%' to '0%' */
+  transparent 37.41%,
+  var(--rose) 89.27%,
+  var(--base) 100%
+);
+
 }
 #card::after{
   content: '';

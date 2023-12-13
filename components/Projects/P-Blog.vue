@@ -15,6 +15,7 @@
       >
     </div>
     <NuxtImg
+      alt="screenshot of blog"
       class="max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/blog.webp"

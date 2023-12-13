@@ -37,8 +37,8 @@
   background: radial-gradient(
     140% 107.13% at 50% 10%,
     transparent 67.41%,
-    var(--love) 88.27%,
-    var(--text) 190%
+    var(--love) 87.27%,
+    var(--text) 111%
   );
 }
 #main::after {
@@ -49,7 +49,7 @@
   width: 20px;
   position: absolute;
   filter: blur(10px);
-  background: linear-gradient(45deg, var(--rose), transparent);
+  background: linear-gradient(45deg, var(--love), transparent);
   z-index: 1;
 }
 #main::before {
@@ -60,7 +60,7 @@
   width: 20px;
   position: absolute;
   filter: blur(10px);
-  background: linear-gradient(45deg, var(--rose), transparent);
+  background: linear-gradient(45deg, var(--love), transparent);
   z-index: 1;
 }
 </style>

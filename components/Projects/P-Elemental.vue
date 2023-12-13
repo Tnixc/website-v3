@@ -1,8 +1,9 @@
 <template>
   <div
-    class="rounded-3xl flex max-w-full flex-grow flex-col bg-rp-surface p-10 lg:w-1/2"
+    class="rounded-3xl flex max-w-full flex-grow flex-col bg-rp-surface p-10 lg:w-1/2 something relative"
   >
     <NuxtImg
+      alt="screenshot of Elemental website"
       class="max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/elemental.webp"
@@ -24,3 +25,17 @@
     </div>
   </div>
 </template>
+<style scoped>
+.something::after {
+  content: "";
+  bottom: -150px;
+  right: -150px;
+  height: 300px;
+  width: 300px;
+  border-radius: 999px;
+  filter: blur(99px);
+  position: absolute;
+  background-color: var(--gold);
+  z-index: -1;
+}
+</style>

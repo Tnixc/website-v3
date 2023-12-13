@@ -1,8 +1,9 @@
 <template>
-  <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10">
+  <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10 something relative">
     <div>
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
         <NuxtImg
+          alt="Catppuccin logo"
           class="w-16"
           loading="lazy"
           src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/catppuccin.webp"
@@ -21,3 +22,17 @@
     </div>
   </div>
 </template>
+<style scoped>
+.something::after {
+  content: "";
+  bottom: -150px;
+  left: 0px;
+  height: 300px;
+  width: 300px;
+  border-radius: 999px;
+  filter: blur(99px);
+  position: absolute;
+  background-color: var(--gold);
+  z-index: 1;
+}
+</style>
