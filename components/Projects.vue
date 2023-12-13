@@ -41,7 +41,8 @@
       </defs></svg
     >projects
   </h1>
-  <div class=" h-[999px] mt-20">
+  <div class="mt-20 grid grid-cols-2 gap-8">
     <ProjectsPElemental/>
+    <ProjectsPBlog/>
   </div>
 </template>
