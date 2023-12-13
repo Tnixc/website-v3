@@ -1,6 +1,7 @@
 <template>
+  <div class="h-40 rounded-t-6xl bg-gradient-to-b from-rp-base -mb-20"></div>
   <h1
-    class="flex items-center gap-5 p-8 font-serif text-6xl text-rp-text lg:p-20"
+    class="flex items-center gap-5 px-8 font-serif text-6xl text-rp-text lg:px-20"
   >
     <svg
       width="60"
@@ -38,6 +39,9 @@
           />
         </clipPath>
       </defs></svg
-    >Projects
+    >projects
   </h1>
+  <div class=" h-[999px] mt-20">
+    <ProjectsPElemental/>
+  </div>
 </template>
