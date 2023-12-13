@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
   tailwindcss: {
     config: {
       theme: {
         extend: {
           colors: {
-            rosePine: {
+            rp: {
               base: "#191724",
               surface: "#1f1d2e",
               overlay: "#26233a",
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
               highlightMed: "#403d52",
               highlightHigh: "#524f67",
             },
-            rosePineMoon: {
+            rpm: {
               base: "#232136",
               surface: "#2a273f",
               overlay: "#393552",
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
               highlightMed: "#44415a",
               highlightHigh: "#56526e",
             },
-            rosePineDawn: {
+            rpd: {
               base: "#faf4ed",
               surface: "#fffaf3",
               overlay: "#f2e9e1",

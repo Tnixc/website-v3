@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <body class="bg-black h-screen">
     <Nav />
-  </div>
+  </body>
+
 </template>
