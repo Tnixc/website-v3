@@ -1,37 +1,37 @@
 <template>
   <div
-    class="hidden lg:flex rounded-full fixed top-4 left-1/2 h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rpm-base/40 backdrop-blur-lg text-rpm-text ring-2 ring-rpm-muted shadow-2xl"
+    class="hidden lg:flex rounded-full fixed top-4 left-1/2 h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 backdrop-blur-lg text-rp-text ring-2 ring-rp-muted shadow-2xl"
   >
     <NuxtImg
       draggable="false"
-      class="rounded-full block max-h-full scale-75 ring-2 ring-rpm-love h-full aspect-square"
+      class="rounded-full block max-h-full scale-75 ring-2 ring-rp-love h-full aspect-square"
       src="https://avatars.githubusercontent.com/u/85466117?v=4"
     />
     <p class="px-2 pb-1 font-serif text-2xl">Tnixc</p>
     <div class="ml-auto mr-0 flex px-5">
       <nuxt-link
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rpm-love underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
+        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-love underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         to=""
         >About</nuxt-link
       >
       <nuxt-link
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rpm-foam underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
+        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-foam underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         to=""
         >Skills</nuxt-link
       >
 
       <nuxt-link
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rpm-iris underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
+        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-iris underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         to=""
         >Projects</nuxt-link
       >
       <nuxt-link
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rpm-gold underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
+        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-gold underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         to=""
         >Contact</nuxt-link
       >
       <a
-        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rpm-text underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100 flex items-center gap-2"
+        class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-text underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100 flex items-center gap-2"
         href=""
         >Blog
         <svg

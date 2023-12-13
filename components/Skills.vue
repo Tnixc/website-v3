@@ -33,7 +33,7 @@
               <rect width="200" height="200" fill="white" />
             </clipPath>
           </defs></svg
-        >Skills
+        >skills
       </h1>
       <p class="py-4 font-sans text-xl leading-7 text-rp-subtle">
         I mainly do UI/UX design and Front-end development, but I would like to
@@ -80,31 +80,31 @@
                 <rect width="200" height="200" fill="white" />
               </clipPath>
             </defs></svg
-          >Languages
+          >languages
         </h1>
         <div class="flex flex-wrap gap-4 py-8 font-mono">
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-blue-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-blue-400 ring-current transition-all hover:ring-2"
           >
             TypeScript
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
           >
             HTML
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-blue-500 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-blue-500 ring-current transition-all hover:ring-2"
           >
             CSS
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-pink-500 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-pink-500 ring-current transition-all hover:ring-2"
           >
             SASS
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-yellow-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-yellow-400 ring-current transition-all hover:ring-2"
           >
             Python
           </div>
@@ -143,26 +143,26 @@
                 <rect width="200" height="200" fill="white" />
               </clipPath>
             </defs></svg
-          ><span>Frameworks</span><span>/</span><span>Tools</span>
+          ><span>frameworks</span><span>/</span><span>tools</span>
         </h1>
         <div class="flex flex-wrap gap-4 py-8 font-mono">
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
           >
             Vue
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
           >
             Nuxt
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-cyan-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-cyan-400 ring-current transition-all hover:ring-2"
           >
             TailwindCSS
           </div>
           <div
-            class="rounded-lg cursor-default bg-rpm-base p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-orange-400 ring-current transition-all hover:ring-2"
           >
             Git
           </div>
