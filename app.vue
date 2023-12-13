@@ -1,28 +1,30 @@
-<script>useSeoMeta({
-  title: '[title]',
-  description: '[description]',
-  ogTitle: '[og:title]',
-  ogDescription: '[og:description]',
-  ogImage: '[og:image]',
-  ogUrl: '[og:url]',
-  twitterTitle: '[twitter:title]',
-  twitterDescription: '[twitter:description]',
-  twitterImage: '[twitter:image]',
-  twitterCard: 'summary'
-})
+<script setup>
+useSeoMeta({
+  title: "Tnixc's website",
+  description: "About, skills, projects and contact information for Tnixc",
+  ogTitle: "Tnixc's website",
+  ogDescription: "About, skills, projects and contact information for Tnixc",
+  ogImage: "/favicon.png",
+  ogUrl: "https://tnixc.space",
+  twitterTitle: "Tnixc's website",
+  twitterDescription: "About, skills, projects and contact information for Tnixc",
+  twitterImage: "/favicon.png",
+  twitterCard: "",
+});
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: "en",
   },
   link: [
     {
-      rel: 'icon',
-      type: 'image/png',
-      href: '/favicon.png'
-    }
-  ]
-})</script>
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png",
+    },
+  ],
+});
+</script>
 <template>
   <body class="flex h-screen justify-center bg-black">
     <main class="w-[98vw] max-w-7xl">
@@ -38,13 +40,13 @@ useHead({
       <Projects />
       <a id="contact"></a>
       <Contact />
-      <LazyFooter/>
+      <LazyFooter />
     </main>
     <Nav />
   </body>
 </template>
 <style>
-*{
+* {
   scroll-behavior: smooth;
 }
 :root {
