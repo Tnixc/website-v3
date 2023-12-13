@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded-full fixed left-1/2 top-4 hidden h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted backdrop-blur-lg lg:flex"
+    class="rounded-full fixed left-1/2 top-4 hidden h-16 w-[98%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted/30 backdrop-blur-lg lg:flex"
   >
     <NuxtImg
       draggable="false"
