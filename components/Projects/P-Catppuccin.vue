@@ -26,13 +26,13 @@
 .something::after {
   content: "";
   bottom: -150px;
-  left: 0px;
-  height: 300px;
-  width: 300px;
+  left: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 999px;
   filter: blur(99px);
   position: absolute;
-  background-color: var(--gold);
-  z-index: 1;
+  background-color: var(--love);
+  z-index: -1;
 }
 </style>

@@ -41,7 +41,7 @@
       </defs></svg
     >projects
   </h1>
-  <div class="mt-20 flex flex-wrap justify-around gap-2">
+  <div class="mt-20 flex flex-wrap justify-around gap-3 p-1">
     <ProjectsPElemental />
     <ProjectsPBlog />
     <ProjectsPCatppuccin />
@@ -49,3 +49,8 @@
     <ProjectsPOther />
   </div>
 </template>
+<style scoped>
+div > div{
+  @apply ring-2 ring-rp-subtle/30; 
+}
+</style>
