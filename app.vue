@@ -37,11 +37,11 @@ useHead({
       <GraphicTwo class="ml-auto mr-auto w-full" />
       <Skills />
       <a id="projects"></a>
-      <LazyGraphicThree class="ml-auto mr-auto w-full" />
-      <LazyProjects />
+      <GraphicThree class="ml-auto mr-auto w-full" />
+      <Projects />
       <a id="contact"></a>
-      <LazyContact />
-      <LazyFooter />
+      <Contact />
+      <Footer />
     </main>
     <Nav />
   </body>
