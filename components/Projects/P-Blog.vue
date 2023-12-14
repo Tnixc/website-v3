@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl flex w-min max-w-full flex-col bg-rp-surface p-10">
+  <div class="rounded-3xl flex flex-grow w-min max-w-full flex-col bg-rp-surface p-10">
     <div>
       <h1 class="font-serif text-4xl text-rp-text">Blog</h1>
       <p class="py-4 text-lg text-rp-subtle">

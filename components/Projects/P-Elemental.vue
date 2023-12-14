@@ -27,7 +27,6 @@
 </template>
 <style scoped>
 .something::after {
-  @apply hidden lg:block;
   content: "";
   bottom: -150px;
   right: -150px;

@@ -41,7 +41,7 @@
       </defs></svg
     >projects
   </h1>
-  <div class="mt-20 flex flex-wrap justify-around gap-3 p-1">
+  <div class="mt-20 flex flex-wrap justify-around gap-3 p-1 overflow-hidden">
     <ProjectsPElemental />
     <ProjectsPBlog />
     <ProjectsPCatppuccin />
