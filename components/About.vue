@@ -55,7 +55,7 @@
         pjsk, and beat saber. I also like BG3, City Skylines 2, Cyberpunk, poly
         bridge, ultrakill, besiege, and celeste.
       </p>
-      <h3 class="text-4xl">Software I use:</h3>
+      <h2 class="text-4xl">Software I use:</h2>
       <div class="row flex gap-2 py-4">
         <NuxtImg
           loading="lazy"
