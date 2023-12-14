@@ -4,12 +4,12 @@ useSeoMeta({
   description: "About, skills, projects and contact information for Tnixc",
   ogTitle: "tnixc.space",
   ogDescription: "About, skills, projects and contact information for Tnixc",
-  ogImage: "/favicon.png",
+  ogImage: "https://i.imgur.com/5jGjIrQ.png",
   ogUrl: "https://tnixc.space",
   twitterTitle: "tnixc.space",
   twitterDescription:
     "About, skills, projects and contact information for Tnixc",
-  twitterImage: "/favicon.png",
+  twitterImage: "https://i.imgur.com/5jGjIrQ.png",
   twitterCard: "",
 });
 
