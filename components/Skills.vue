@@ -174,29 +174,34 @@
       class="h-0.5 bg-gradient-to-r from-rp-rose via-rp-base to-rp-rose"
     ></div>
     <div
-      class="rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20 flex justify-center"
+      class="flex justify-center rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20"
     >
-    <div class="flex flex-wrap justify-around gap-4 w-fit">
-      <div class="p-2 bg-rp-base rounded-2xl ring-2 max-w-[98%] flex-grow flex justify-center shadow-2xl ring-rp-muted/50">
-      <NuxtImg
-        alt="My github profile card"
-        width="450"
-        height="170"
-        loading="lazy"
-        draggable="false"
-        src="https://github-readme-stats.vercel.app/api?username=Tnixc&theme=rose_pine&hide_border=true&text_bold=false&ring_color=F6C177&disable_animations=true&include_all_commits=true&hide=contribs"
-      />
-    </div>
-    <div class="p-2 bg-rp-base rounded-2xl ring-2 max-w-[98%] flex-grow flex justify-center shadow-2xl ring-rp-muted/50">
-      <NuxtImg
-        alt="My github languages card"
-        width="300"
-        height="170"
-        loading="lazy"
-        draggable="false"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true&disable_animations=true"
-      /></div>
-    </div>
+      <div class="flex w-fit flex-wrap justify-around gap-4">
+        <div
+          class="rounded-2xl flex max-w-[98%] flex-grow justify-center bg-rp-base p-2 shadow-2xl ring-2 ring-rp-muted/50"
+        >
+          <NuxtImg
+            alt="My github profile card"
+            width="450"
+            height="170"
+            loading="lazy"
+            draggable="false"
+            src="https://github-readme-stats.vercel.app/api?username=Tnixc&theme=rose_pine&hide_border=true&text_bold=false&ring_color=F6C177&disable_animations=true&include_all_commits=true&hide=contribs"
+          />
+        </div>
+        <div
+          class="rounded-2xl flex max-w-[98%] flex-grow justify-center bg-rp-base p-2 shadow-2xl ring-2 ring-rp-muted/50"
+        >
+          <NuxtImg
+            alt="My github languages card"
+            width="300"
+            height="170"
+            loading="lazy"
+            draggable="false"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true&disable_animations=true"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>

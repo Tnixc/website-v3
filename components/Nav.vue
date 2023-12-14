@@ -9,7 +9,7 @@
       src="https://avatars.githubusercontent.com/u/85466117?v=4"
     />
     <p class="hidden px-2 pb-1 font-serif text-2xl md:block">Tnixc</p>
-    <div class="md:ml-auto md:mr-0 flex px-5 mx-auto">
+    <div class="mx-auto flex px-5 md:ml-auto md:mr-0">
       <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-foam underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
         href="#about"
@@ -51,7 +51,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
-a{
+a {
   text-wrap: nowrap !important;
   white-space: nowrap !important;
   overflow-wrap: normal !important;

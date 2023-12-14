@@ -5,22 +5,22 @@
     <NuxtImg
       alt="screenshot of Elemental website"
       width="512"
-      class="max-w-lg w-full"
+      class="w-full max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/elemental.webp"
     />
-      <h1 class="font-serif text-4xl text-rp-text">Elemental</h1>
-      <p class="py-4 text-lg text-rp-subtle">
-        A website to help you with chemistry calculations. Built with Vue and
-        TypeScript, it mainly processes data from a json and matches it to the
-        input.
-      </p>
-      <a
-        href="https://elemental-mocha.vercel.app"
-        target="_blank"
-        class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline mt-auto mb-0"
-        >elemental-mocha.vercel.app</a
-      >
+    <h1 class="font-serif text-4xl text-rp-text">Elemental</h1>
+    <p class="py-4 text-lg text-rp-subtle">
+      A website to help you with chemistry calculations. Built with Vue and
+      TypeScript, it mainly processes data from a json and matches it to the
+      input.
+    </p>
+    <a
+      href="https://elemental-mocha.vercel.app"
+      target="_blank"
+      class="mb-0 mt-auto font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+      >elemental-mocha.vercel.app</a
+    >
   </div>
 </template>
 <style scoped>

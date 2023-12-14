@@ -42,17 +42,27 @@
     >projects
   </h1>
   <div class="mt-20 flex flex-wrap justify-around gap-2 overflow-hidden p-1">
-    <div class="flex flex-wrap gap-2 max-w-full">
-      <ProjectsPElemental class="w-1/2  flex-grow ring-2 ring-rp-base/80" />
-      <ProjectsPBlog class="w-fit md:w-1/3 flex-grow max-w-full ring-2 ring-rp-base/80" />
+    <div class="flex max-w-full flex-wrap gap-2">
+      <ProjectsPElemental class="w-1/2 flex-grow ring-2 ring-rp-base/80" />
+      <ProjectsPBlog
+        class="w-fit max-w-full flex-grow ring-2 ring-rp-base/80 md:w-1/3"
+      />
     </div>
-    <div class="flex flex-wrap gap-2 max-w-full">
-      <ProjectsPCatppuccin class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
-      <ProjectsPDotfiles class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
+    <div class="flex max-w-full flex-wrap gap-2">
+      <ProjectsPCatppuccin
+        class="w-fit max-w-full flex-grow ring-2 ring-rp-base/80 md:w-min"
+      />
+      <ProjectsPDotfiles
+        class="w-1/2 max-w-full flex-grow ring-2 ring-rp-base/80"
+      />
     </div>
-    <div class="flex flex-wrap gap-2 max-w-full">
-      <ProjectsPWebsite class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
-      <ProjectsPOther class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+    <div class="flex max-w-full flex-wrap gap-2">
+      <ProjectsPWebsite
+        class="w-1/2 max-w-full flex-grow ring-2 ring-rp-base/80"
+      />
+      <ProjectsPOther
+        class="w-fit max-w-full flex-grow ring-2 ring-rp-base/80 md:w-min"
+      />
     </div>
   </div>
 </template>

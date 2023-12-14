@@ -47,13 +47,13 @@ useHead({
   </div>
 </template>
 <style>
-body{
+body {
   background-color: black;
 }
 * {
   scroll-behavior: smooth;
 }
-a{
+a {
   text-wrap: wrap;
   overflow-wrap: anywhere;
 }
