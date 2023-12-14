@@ -4,6 +4,7 @@
   >
     <NuxtImg
       draggable="false"
+      alt="Anime girl profile picture :3"
       loading="lazy"
       class="rounded-full hidden aspect-square h-full max-h-full scale-75 ring-2 ring-rp-love md:block"
       src="https://avatars.githubusercontent.com/u/85466117?v=4"

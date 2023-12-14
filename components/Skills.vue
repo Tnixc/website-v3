@@ -190,12 +190,12 @@
           />
         </div>
         <div
-          class="rounded-2xl flex max-w-[98%] flex-grow justify-center bg-rp-base p-2 shadow-2xl ring-2 ring-rp-muted/50"
+          class="rounded-2xl flex max-w-[98%] flex-grow justify-center items-center bg-rp-base p-2 shadow-2xl ring-2 ring-rp-muted/50"
         >
           <NuxtImg
             alt="My github languages card"
             width="300"
-            height="170"
+            height="165"
             loading="lazy"
             draggable="false"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true&disable_animations=true"
