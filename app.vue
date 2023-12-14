@@ -10,7 +10,7 @@ useSeoMeta({
   twitterDescription:
     "About, skills, projects and contact information for Tnixc",
   twitterImage: "https://i.imgur.com/5jGjIrQ.png",
-  twitterCard: "",
+  twitterCard: "https://i.imgur.com/5jGjIrQ.png",
 });
 
 useHead({
