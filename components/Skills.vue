@@ -216,7 +216,7 @@
   left: -20px;
   width: 20px;
   height: 100%;
-  filter: blur(20px);
+  filter: blur(10px);
   background: linear-gradient(45deg, var(--rose), transparent);
 }
 #card::before {
@@ -226,7 +226,7 @@
   right: -20px;
   width: 20px;
   height: 100%;
-  filter: blur(20px);
+  filter: blur(10px);
   background: linear-gradient(-45deg, var(--rose), transparent);
 }
 </style>

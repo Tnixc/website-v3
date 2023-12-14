@@ -45,6 +45,7 @@
     <ProjectsPElemental />
     <ProjectsPBlog />
     <ProjectsPCatppuccin />
+    <ProjectsPDotfiles />
     <ProjectsPWebsite />
     <ProjectsPOther />
   </div>
