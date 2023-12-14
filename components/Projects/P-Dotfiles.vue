@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl flex max-w-full flex-col bg-rp-surface p-10">
+  <div class="rounded-3xl flex max-w-full flex-col bg-rp-surface p-10 relative something">
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
         Dotfiles
         <a
@@ -32,6 +32,30 @@
       </div>
   </div>
 </template>
+<style scoped>.something::after {
+  content: "";
+  bottom: -50px;
+  left: 30%;
+  height: 200px;
+  width: 200px;
+  border-radius: 999px;
+  filter: blur(99px);
+  position: absolute;
+  background-color: var(--foam);
+  z-index: -1;
+}
+.something::before {
+  content: "";
+  bottom: -250px;
+  left: 40%;
+  height: 200px;
+  width: 200px;
+  border-radius: 999px;
+  filter: blur(99px);
+  position: absolute;
+  background-color: var(--pine);
+  z-index: -1;
+}</style>
 <script lang="ts">
 export default {
   data() {

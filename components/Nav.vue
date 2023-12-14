@@ -52,7 +52,9 @@
   display: none;
 }
 a{
-  text-wrap: nowrap;
+  text-wrap: nowrap !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
 }
 * {
   -ms-overflow-style: none; /* IE and Edge */

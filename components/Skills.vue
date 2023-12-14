@@ -171,7 +171,7 @@
       </div>
     </div>
     <div
-      class="h-0.5 bg-gradient-to-r from-rp-base via-rp-rose to-rp-base"
+      class="h-0.5 bg-gradient-to-r from-rp-rose via-rp-base to-rp-rose"
     ></div>
     <div
       class="rounded-b-6xl bg-gradient-to-t from-rp-highlightLow via-rp-base to-rp-base py-20 flex justify-center"
@@ -220,20 +220,20 @@
   content: "";
   position: absolute;
   top: 0;
-  left: -20px;
+  left: -18px;
   width: 20px;
   height: 100%;
-  filter: blur(10px);
-  background: linear-gradient(45deg, var(--rose), transparent);
+  filter: blur(0px);
+  background: linear-gradient(45deg, var(--rose), transparent 75%);
 }
 #card::before {
   content: "";
   position: absolute;
   top: 0;
-  right: -20px;
+  right: -18px;
   width: 20px;
   height: 100%;
-  filter: blur(10px);
-  background: linear-gradient(-45deg, var(--rose), transparent);
+  filter: blur(0px);
+  background: linear-gradient(-45deg, var(--rose), transparent 75%);
 }
 </style>

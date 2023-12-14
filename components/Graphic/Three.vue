@@ -1,6 +1,6 @@
 <template>
   <div class="h-20 w-full"></div>
-  <div class="flex h-20 items-center gap-10 px-20">
+  <div class="flex h-20 items-center lg:gap-10 lg:px-20 gap-4 px-4">
     <div class="h-1 w-full bg-gradient-to-l from-rp-iris"></div>
     <svg
       class="rotate-180"
