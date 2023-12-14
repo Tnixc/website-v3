@@ -19,7 +19,7 @@
         href="https://elemental-mocha.vercel.app"
         target="_blank"
         class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline mt-auto mb-0"
-        >https://elemental-mocha.vercel.app</a
+        >elemental-mocha.vercel.app</a
       >
   </div>
 </template>

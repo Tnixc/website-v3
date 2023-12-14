@@ -50,6 +50,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+a{
+  text-wrap: nowrap;
+}
 * {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */

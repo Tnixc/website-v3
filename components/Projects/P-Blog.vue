@@ -14,7 +14,7 @@
         href="https://blog.tnixc.space"
         target="_blank"
         class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >https://blog.tnixc.space</a
+        >blog.tnixc.space</a
       >
     </div>
     <NuxtImg

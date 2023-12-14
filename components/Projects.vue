@@ -46,11 +46,11 @@
       <LazyProjectsPElemental class="w-1/2 flex-grow ring-2 ring-rp-base/80" />
       <LazyProjectsPBlog class="w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>
-    <div class="flex flex-wrap gap-3">
+    <div class="flex flex-wrap gap-3 max-w-full">
       <LazyProjectsPCatppuccin class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
       <LazyProjectsPDotfiles class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>
-    <div class="flex flex-wrap gap-3">
+    <div class="flex flex-wrap gap-3 max-w-full">
       <LazyProjectsPWebsite class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
       <LazyProjectsPOther class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>

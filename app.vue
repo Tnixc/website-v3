@@ -50,6 +50,10 @@ useHead({
 * {
   scroll-behavior: smooth;
 }
+a{
+  text-wrap: wrap;
+  overflow-wrap: anywhere;
+}
 ::selection {
   background-color: var(--rpd-highlightHigh);
   color: var(--rpd-text);

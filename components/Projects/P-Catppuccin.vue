@@ -19,7 +19,7 @@
         href="https://github.com/catppuccin"
         target="_blank"
         class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >https://github.com/catppuccin</a
+        >github.com/catppuccin</a
       >
     </div>
   </div>
