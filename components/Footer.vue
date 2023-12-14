@@ -431,7 +431,11 @@ export default {
       const json = await data.json();
       const x = json.commit.commit.author.date;
       const d = new Date(x);
-      return d.toLocaleDateString();
+      return d.toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+      });
     },
   },
 };
