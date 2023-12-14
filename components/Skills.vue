@@ -179,14 +179,14 @@
       <NuxtImg
         alt="My github profile card"
         class="rounded-2xl relative m-1 h-60 max-w-[98%] bg-rp-base p-2 shadow-lg ring ring-rp-highlightHigh"
-        lazy="true"
+        loading="lazy"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />
       <NuxtImg
         alt="My github languages card"
         class="rounded-2xl relative m-1 h-60 max-w-[98%] bg-rp-base p-2 shadow-lg ring ring-rp-highlightHigh"
-        lazy="true"
+        loading="lazy"
         draggable="false"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnixc&layout=compact&hide=html&theme=rose_pine&hide_border=true"
       />

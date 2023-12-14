@@ -15,11 +15,13 @@
         >https://old-v1-tnixc.vercel.app/</a
       >
       <span class="inline-block w-4"></span>
+      <span class="text-rp-subtle select-none">|</span>
+      <span class="inline-block w-4"></span>
       <a
-        href="https://old-v2.vercel.app/"
+        href="https://website-v2-tnixc.vercel.app"
         target="_blank"
         class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >https://old-v2.vercel.app/</a
+        >https://website-v2-tnixc.vercel.app</a
       >
     </div>
   </div>
