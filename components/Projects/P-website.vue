@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10 relative something">
+  <div class="rounded-3xl flex max-w-full flex-col bg-rp-surface p-10">
     <div>
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
         This website
@@ -26,17 +26,3 @@
     </div>
   </div>
 </template>
-<style scoped>
-.something::after {
-  content: "";
-  bottom: -150px;
-  right: 10px;
-  height: 200px;
-  width: 200px;
-  border-radius: 999px;
-  filter: blur(99px);
-  position: absolute;
-  background-color: var(--iris);
-  z-index: -1;
-}
-</style>

@@ -41,13 +41,19 @@
       </defs></svg
     >projects
   </h1>
-  <div class="mt-20 flex flex-wrap justify-around gap-3 p-1 overflow-hidden">
-    <ProjectsPElemental />
-    <ProjectsPBlog />
-    <ProjectsPCatppuccin />
-    <ProjectsPDotfiles />
-    <ProjectsPWebsite />
-    <ProjectsPOther />
+  <div class="mt-20 flex flex-wrap justify-around gap-3 overflow-hidden p-1">
+    <div class="flex flex-wrap gap-3 max-w-full">
+      <LazyProjectsPElemental class="w-1/2 flex-grow ring-2 ring-rp-base/80" />
+      <LazyProjectsPBlog class="w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+    </div>
+    <div class="flex flex-wrap gap-3">
+      <LazyProjectsPCatppuccin class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <LazyProjectsPDotfiles class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
+    </div>
+    <div class="flex flex-wrap gap-3">
+      <LazyProjectsPWebsite class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <LazyProjectsPOther class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+    </div>
   </div>
 </template>
 <style scoped>
@@ -58,8 +64,5 @@
     var(--rpd-iris) 89.27%,
     var(--iris) 100%
   );
-}
-div > div {
-  @apply ring-2 ring-rp-subtle/30;
 }
 </style>

@@ -40,7 +40,7 @@ useHead({
       <GraphicThree class="ml-auto mr-auto w-full" />
       <Projects />
       <a id="contact"></a>
-      <Contact />
+      <LazyContact />
       <LazyFooter />
     </main>
     <Nav />

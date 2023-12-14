@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rounded-3xl something relative flex max-w-full flex-grow flex-col bg-rp-surface p-10 lg:w-1/2"
+    class="rounded-3xl something relative flex max-w-full flex-col bg-rp-surface p-10"
   >
     <NuxtImg
       alt="screenshot of Elemental website"
@@ -8,8 +8,6 @@
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/elemental.webp"
     />
-
-    <div>
       <h1 class="font-serif text-4xl text-rp-text">Elemental</h1>
       <p class="py-4 text-lg text-rp-subtle">
         A website to help you with chemistry calculations. Built with Vue and
@@ -19,10 +17,9 @@
       <a
         href="https://elemental-mocha.vercel.app"
         target="_blank"
-        class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline mt-auto mb-0"
         >https://elemental-mocha.vercel.app</a
       >
-    </div>
   </div>
 </template>
 <style scoped>

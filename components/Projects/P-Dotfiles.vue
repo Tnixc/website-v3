@@ -1,6 +1,5 @@
 <template>
-  <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10">
-    <div>
+  <div class="rounded-3xl flex max-w-full flex-col bg-rp-surface p-10">
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
         Dotfiles
         <a
@@ -14,22 +13,23 @@
         My dotfiles for my macOS setup. Includes my yabai config, sketchybar
         config, and more. I also have a seperate repo for my firefox user css.
       </p>
-      <a
-        href="https://github.com/tnixc/firefox-config"
-        target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >https://github.com/tnixc/firefox-config</a
-      >
-      <span class="inline-block w-4"></span>
-      <span class="select-none text-rp-subtle">|</span>
-      <span class="inline-block w-4"></span>
-      <a
-        href="https://github.com/tnixc/dots"
-        target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >https://github.com/tnixc/dots</a
-      >
-    </div>
+      <div class="mt-auto mb-0">
+        <a
+          href="https://github.com/tnixc/firefox-config"
+          target="_blank"
+          class="inline font-mono text-lg whitespace-normal text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+          >https://github.com/tnixc/firefox-config</a
+        >
+        <span class="inline-block w-4"></span>
+        <span class="select-none text-rp-subtle">|</span>
+        <span class="inline-block w-4"></span>
+        <a
+          href="https://github.com/tnixc/dots"
+          target="_blank"
+          class="inline font-mono text-lg whitespace-normal text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+          >https://github.com/tnixc/dots</a
+        >
+      </div>
   </div>
 </template>
 <script lang="ts">
