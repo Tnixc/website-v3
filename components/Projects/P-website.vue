@@ -12,7 +12,7 @@
       <a
         href="https://old-v1-tnixc.vercel.app/"
         target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
         >old-v1-tnixc.vercel.app/</a
       >
 
@@ -22,7 +22,7 @@
       <a
         href="https://old-v2-tnixc.vercel.app"
         target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
         >old-v2-tnixc.vercel.app</a
       >
     </div>

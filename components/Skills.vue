@@ -83,7 +83,7 @@
             </defs></svg
           >languages
         </h1>
-        <div class="flex flex-wrap gap-4 py-8 font-mono">
+        <div class="flex flex-wrap gap-4 py-8 font-sans">
           <div
             class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-blue-400 ring-current transition-all hover:ring-2"
           >
@@ -146,7 +146,7 @@
             </defs></svg
           ><span>frameworks</span><span>/</span><span>tools</span>
         </h1>
-        <div class="flex flex-wrap gap-4 py-8 font-mono">
+        <div class="flex flex-wrap gap-4 py-8 font-sans">
           <div
             class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-emerald-400 ring-current transition-all hover:ring-2"
           >

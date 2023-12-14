@@ -19,7 +19,7 @@
       <a
         href="https://github.com/tnixc/firefox-config"
         target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
         >github.com/tnixc/firefox-config</a
       >
       <span class="inline-block w-4"></span>
@@ -28,7 +28,7 @@
       <a
         href="https://github.com/tnixc/dots"
         target="_blank"
-        class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
         >github.com/tnixc/dots</a
       >
     </div>

@@ -9,14 +9,14 @@
         <a
           href="https://github.com/Tnixc/ui-collection"
           target="_blank"
-          class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+          class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
           >UI-collections</a
         >
         and some discord CSS modifications on
         <a
           href="https://github.com/Tnixc/disc-collections"
           target="_blank"
-          class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+          class="inline font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
           >disc-collections</a
         >.
       </p>

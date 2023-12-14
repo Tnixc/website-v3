@@ -36,7 +36,7 @@
         >about
       </h1>
       <br />
-      <p class="font-mono text-2xl text-rp-text">
+      <p class="font-sans text-2xl text-rp-text">
         | he/him | Time Zone: EST | 🇨🇦 🇭🇰 |
       </p>
       <p class="py-4 font-sans text-xl leading-7 text-rp-subtle">

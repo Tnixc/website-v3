@@ -9,7 +9,7 @@
       contact
     </h1>
     <div
-      class="flex flex-col items-center justify-center gap-4 p-20 font-mono text-rp-text"
+      class="flex flex-col items-center justify-center gap-4 p-20 font-sans text-rp-text"
     >
       <a
         target="_blank"

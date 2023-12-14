@@ -4,7 +4,6 @@ module.exports = {
     fontFamily: {
       sans: ["'Space Grotesk'", "system-ui", "sans-serif"],
       serif: ['"Crimson Pro"', "serif"],
-      mono: ['"DM Mono"', "monospace"],
     },
     borderRadius: {
       "4xl": "2rem",

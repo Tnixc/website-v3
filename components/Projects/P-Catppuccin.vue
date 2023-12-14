@@ -20,7 +20,7 @@
       <a
         href="https://github.com/catppuccin"
         target="_blank"
-        class="font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
+        class="font-sans text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
         >github.com/catppuccin</a
       >
     </div>

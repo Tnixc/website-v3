@@ -14,7 +14,6 @@ export default defineNuxtConfig({
         fontFamily: {
           sans: ["'Space Grotesk'", "system-ui", "sans-serif"],
           serif: ["'Crimson Pro'", "serif"],
-          mono: ['"Fira Code"', "monospace"],
         },
         borderRadius: {
           none: "0",
@@ -74,12 +73,6 @@ export default defineNuxtConfig({
   googleFonts: {
     display: "swap",
     families: {
-      Poppins: {
-        wght: "400",
-      },
-      "DM Mono": {
-        wght: "400",
-      },
       "Space Grotesk": {
         wght: "400",
       },
