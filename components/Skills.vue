@@ -158,6 +158,11 @@
             Nuxt
           </div>
           <div
+            class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-orange-300 ring-current transition-all hover:ring-2"
+          >
+            Astro
+          </div>
+          <div
             class="rounded-lg cursor-default bg-rp-highlightLow p-4 text-xl text-cyan-400 ring-current transition-all hover:ring-2"
           >
             TailwindCSS

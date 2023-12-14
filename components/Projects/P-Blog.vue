@@ -5,10 +5,7 @@
     <div>
       <h1 class="font-serif text-4xl text-rp-text">Blog</h1>
       <p class="py-4 text-lg text-rp-subtle">
-        A simple blog built with Nuxt and Tailwind. It uses the Nuxt Content
-        module to generate pages from markdown files. I want to consolidate it
-        into this site eventually. Also gonna rewrite it with Astro cus it is
-        slow as hell rn.
+        A simple blog built with some template and Astro. Kinda fast.
       </p>
       <a
         href="https://blog.tnixc.space"
