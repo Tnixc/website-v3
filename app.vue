@@ -27,7 +27,7 @@ useHead({
 });
 </script>
 <template>
-  <body class="flex h-screen justify-center bg-black">
+  <div class="flex h-screen justify-center bg-black">
     <main class="w-[98vw] max-w-7xl">
       <Landing />
       <a id="about"></a>
@@ -44,9 +44,12 @@ useHead({
       <Footer />
     </main>
     <Nav />
-  </body>
+  </div>
 </template>
 <style>
+body{
+  background-color: black;
+}
 * {
   scroll-behavior: smooth;
 }
