@@ -19,6 +19,7 @@
     </div>
     <NuxtImg
       width="512"
+      height="322.317"
       alt="screenshot of blog"
       class="w-full max-w-lg"
       loading="lazy"

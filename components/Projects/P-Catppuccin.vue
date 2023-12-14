@@ -7,6 +7,8 @@
         <NuxtImg
           alt="Catppuccin logo"
           class="w-16"
+          height="64"
+          width="64"
           loading="lazy"
           src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/catppuccin.webp"
         />Maintainer at Catppuccin
