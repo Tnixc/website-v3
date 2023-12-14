@@ -1,5 +1,5 @@
 <template>
-  <div class="-mb-20 h-40 rounded-t-6xl bg-gradient-to-b from-rp-muted"></div>
+  <div class="-mb-20 h-40 rounded-t-6xl bg-gradient-to-b" id="title"></div>
   <h1
     class="flex items-center gap-5 px-8 font-serif text-6xl text-rp-text lg:px-20"
   >
@@ -50,6 +50,9 @@
   </div>
 </template>
 <style scoped>
+#title{
+  background: radial-gradient(131.82% 109.9% at 50% 100%,transparent 40.41%,var(--rpd-iris) 89.27%,var(--iris) 100%)
+}
 div > div {
   @apply ring-2 ring-rp-subtle/30;
 }
