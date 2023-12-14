@@ -23,7 +23,7 @@
       alt="screenshot of blog"
       class="w-full max-w-lg"
       loading="lazy"
-      src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/blog.webp"
+      src="https://i.imgur.com/aQChJt9.jpg"
     />
   </div>
 </template>
