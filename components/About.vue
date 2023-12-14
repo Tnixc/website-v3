@@ -56,7 +56,7 @@
         bridge, ultrakill, besiege, and celeste.
       </p>
       <h2 class="text-4xl">Software I use:</h2>
-      <div class="row flex gap-2 py-4">
+      <div class="row flex gap-2 py-4 flex-wrap">
         <NuxtImg
           loading="lazy"
           alt="VScode"
