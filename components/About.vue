@@ -65,6 +65,12 @@
           src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/38435288692cf8db1593ce7eb70bb94e_iOS_VSCode.png"
         />
         <NuxtImg
+        width="48"
+        height="48"
+        loading="lazy"
+        alt="LunarVim"
+        src="https://i.imgur.com/dLiu7RS.png"/>
+        <NuxtImg
           width="48"
           height="48"
           loading="lazy"
@@ -134,7 +140,7 @@
 
 <style scoped>
 .row > img {
-  @apply rounded-xl h-12;
+  @apply rounded-xl h-12 bg-rp-highlightMed p-0.5;
 }
 #title {
   background: radial-gradient(
