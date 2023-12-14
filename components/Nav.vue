@@ -1,9 +1,3 @@
-<script setup>
-function consoleHitOn() {
-  console.log('I got hit on')
-}
-</script>
-
 <template>
   <div
     class="rounded-full fixed left-1/2 top-4 h-16 w-[95%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted/30 backdrop-blur-lg flex overflow-scroll"
