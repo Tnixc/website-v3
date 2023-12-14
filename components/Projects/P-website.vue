@@ -20,10 +20,10 @@
       <span class="select-none text-rp-subtle">|</span>
       <span class="inline-block w-4"></span>
       <a
-        href="https://website-v2-tnixc.vercel.app"
+        href="https://old-v2-tnixc.vercel.app"
         target="_blank"
         class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >website-v2-tnixc.vercel.app</a
+        >old-v2-tnixc.vercel.app</a
       >
     </div>
   </div>
