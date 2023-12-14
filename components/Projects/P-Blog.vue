@@ -20,7 +20,7 @@
     <NuxtImg
       width="512"
       alt="screenshot of blog"
-      class="max-w-lg"
+      class="max-w-lg w-full"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/blog.webp"
     />
