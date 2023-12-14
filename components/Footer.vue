@@ -402,7 +402,7 @@
       <div class="text-right">
         <p>
           <a
-            href="https://github.com/website-v3"
+            href="https://github.com/Tnixc/website-v3"
             target="_blank"
             class="text-rp-pine transition-all hover:text-rp-foam"
             >Source code on github</a

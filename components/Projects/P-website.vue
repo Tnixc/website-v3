@@ -9,17 +9,17 @@
         Want to go back in time? See v1 or v2, they get progressively worse.
       </p>
       <a
-        href="old-v1-tnixc.vercel.app"
+        href="https://old-v1-tnixc.vercel.app/"
         target="_blank"
         class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >old-v1-tnixc.vercel.app</a
+        >https://old-v1-tnixc.vercel.app/</a
       >
       <span class="inline-block w-4"></span>
       <a
-        href="old-v2-tnixc.vercel.app"
+        href="https://old-v2.vercel.app/"
         target="_blank"
         class="inline font-mono text-lg text-rpd-foam transition-all hover:text-rp-foam hover:underline"
-        >old-v2-tnixc.vercel.app</a
+        >https://old-v2.vercel.app/</a
       >
     </div>
   </div>
