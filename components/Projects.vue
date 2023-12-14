@@ -43,16 +43,16 @@
   </h1>
   <div class="mt-20 flex flex-wrap justify-around gap-3 overflow-hidden p-1">
     <div class="flex flex-wrap gap-3 max-w-full">
-      <LazyProjectsPElemental class="w-1/2  flex-grow ring-2 ring-rp-base/80" />
-      <LazyProjectsPBlog class="w-fit md:w-1/3 flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <ProjectsPElemental class="w-1/2  flex-grow ring-2 ring-rp-base/80" />
+      <ProjectsPBlog class="w-fit md:w-1/3 flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>
     <div class="flex flex-wrap gap-3 max-w-full">
-      <LazyProjectsPCatppuccin class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
-      <LazyProjectsPDotfiles class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <ProjectsPCatppuccin class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <ProjectsPDotfiles class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>
     <div class="flex flex-wrap gap-3 max-w-full">
-      <LazyProjectsPWebsite class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
-      <LazyProjectsPOther class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <ProjectsPWebsite class="w-1/2 flex-grow max-w-full ring-2 ring-rp-base/80" />
+      <ProjectsPOther class="w-fit md:w-min flex-grow max-w-full ring-2 ring-rp-base/80" />
     </div>
   </div>
 </template>
