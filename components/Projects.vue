@@ -50,8 +50,13 @@
   </div>
 </template>
 <style scoped>
-#title{
-  background: radial-gradient(131.82% 109.9% at 50% 100%,transparent 40.41%,var(--rpd-iris) 89.27%,var(--iris) 100%)
+#title {
+  background: radial-gradient(
+    131.82% 109.9% at 50% 100%,
+    transparent 40.41%,
+    var(--rpd-iris) 89.27%,
+    var(--iris) 100%
+  );
 }
 div > div {
   @apply ring-2 ring-rp-subtle/30;

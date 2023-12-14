@@ -1,13 +1,13 @@
 <template>
   <div
-    class="rounded-full fixed left-1/2 top-4 h-16 w-[95%] max-w-5xl -translate-x-1/2 items-center bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted/30 backdrop-blur-lg flex overflow-scroll"
+    class="rounded-full fixed left-1/2 top-4 flex h-16 w-[95%] max-w-5xl -translate-x-1/2 items-center overflow-scroll bg-rp-base/50 text-rp-text shadow-2xl ring-2 ring-rp-muted/30 backdrop-blur-lg"
   >
     <NuxtImg
       draggable="false"
-      class="rounded-full aspect-square h-full max-h-full scale-75 ring-2 ring-rp-love hidden md:block"
+      class="rounded-full hidden aspect-square h-full max-h-full scale-75 ring-2 ring-rp-love md:block"
       src="https://avatars.githubusercontent.com/u/85466117?v=4"
     />
-    <p class="px-2 pb-1 font-serif text-2xl hidden md:block">Tnixc</p>
+    <p class="hidden px-2 pb-1 font-serif text-2xl md:block">Tnixc</p>
     <div class="ml-auto mr-0 flex px-5">
       <a
         class="cursor-pointer px-4 pb-1 font-serif text-2xl text-rp-foam underline-offset-4 opacity-80 transition-all hover:underline hover:opacity-100"
@@ -51,7 +51,7 @@
   display: none;
 }
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 </style>
