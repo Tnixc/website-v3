@@ -4,6 +4,7 @@
   >
     <NuxtImg
       alt="screenshot of Elemental website"
+      width="512"
       class="max-w-lg"
       loading="lazy"
       src="https://raw.githubusercontent.com/Tnixc/website-v2/main/src/assets/elemental.webp"
