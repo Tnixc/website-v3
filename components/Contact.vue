@@ -19,7 +19,7 @@
       >
       <a
         target="_blank"
-        href="https://x.com/Tnixc"
+        href="https://x.com/_Tnixc"
         class="text-center text-2xl text-rp-pine transition-all hover:text-rp-foam hover:underline"
         >Twitter: Tnixc</a
       >
