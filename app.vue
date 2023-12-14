@@ -1,12 +1,12 @@
 <script setup>
 useSeoMeta({
-  title: "Tnixc's website",
+  title: "tnixc.space",
   description: "About, skills, projects and contact information for Tnixc",
-  ogTitle: "Tnixc's website",
+  ogTitle: "tnixc.space",
   ogDescription: "About, skills, projects and contact information for Tnixc",
   ogImage: "/favicon.png",
   ogUrl: "https://tnixc.space",
-  twitterTitle: "Tnixc's website",
+  twitterTitle: "tnixc.space",
   twitterDescription:
     "About, skills, projects and contact information for Tnixc",
   twitterImage: "/favicon.png",
