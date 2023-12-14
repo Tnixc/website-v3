@@ -2,7 +2,13 @@
   <div class="rounded-3xl flex w-full max-w-full flex-col bg-rp-surface p-10">
     <div>
       <h1 class="flex items-center gap-5 font-serif text-4xl text-rp-text">
-        Dotfiles <a class="text-rp-gold/80 hover:text-rp-gold font-sans text-3xl transition-all hover:underline" href="https://github.com/tnixc/dots" target="_blank">{{stars}}★</a>
+        Dotfiles
+        <a
+          class="font-sans text-3xl text-rp-gold/80 transition-all hover:text-rp-gold hover:underline"
+          href="https://github.com/tnixc/dots"
+          target="_blank"
+          >{{ stars }}★</a
+        >
       </h1>
       <p class="py-4 pb-2 text-lg text-rp-subtle">
         My dotfiles for my macOS setup. Includes my yabai config, sketchybar
@@ -15,7 +21,7 @@
         >https://github.com/tnixc/firefox-config</a
       >
       <span class="inline-block w-4"></span>
-      <span class="text-rp-subtle select-none">|</span>
+      <span class="select-none text-rp-subtle">|</span>
       <span class="inline-block w-4"></span>
       <a
         href="https://github.com/tnixc/dots"
@@ -38,12 +44,10 @@ export default {
   },
   methods: {
     async getUpdated() {
-      const data = await fetch(
-        "https://api.github.com/repos/tnixc/dots",
-      );
+      const data = await fetch("https://api.github.com/repos/tnixc/dots");
       const json = await data.json();
       const x = json.stargazers_count;
-      return x
+      return x;
     },
   },
 };

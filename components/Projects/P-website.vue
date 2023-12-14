@@ -15,7 +15,7 @@
         >https://old-v1-tnixc.vercel.app/</a
       >
       <span class="inline-block w-4"></span>
-      <span class="text-rp-subtle select-none">|</span>
+      <span class="select-none text-rp-subtle">|</span>
       <span class="inline-block w-4"></span>
       <a
         href="https://website-v2-tnixc.vercel.app"

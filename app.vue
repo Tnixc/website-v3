@@ -50,7 +50,7 @@ useHead({
 * {
   scroll-behavior: smooth;
 }
-::selection{
+::selection {
   background-color: var(--rpd-highlightHigh);
   color: var(--rpd-text);
 }
